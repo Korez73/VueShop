@@ -15,8 +15,12 @@
   </div>
 </template>
 <script>
+import Curr from '@/components/Curr'
 export default {
   props: ['item'],
-  emits: ['addToCart']
+  emits: ['addToCart'],
+  components: {
+    Curr
+  }
 }
 </script>
