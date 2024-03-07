@@ -2,7 +2,7 @@
 <template>
   <div class="col-2 m-auto">
     <button
-      @click="this.$parent.$parent.$emit('addToCart', item)"
+      @click="this.$parent.$parent.$parent.$emit('addToCart', item)"
       class="btn btn-success"
     >
       +
